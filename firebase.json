@@ -7,7 +7,7 @@
   "appId": "1:711111835557:web:90cdc2e89802c5d50c724c",
   "measurementId": "G-CJCFQ8CSNG",
   "hosting": {
-    "public": "dist",
+    "public": "./dist",
     "ignore": [
       "firebase.json",
       "**/.*",
