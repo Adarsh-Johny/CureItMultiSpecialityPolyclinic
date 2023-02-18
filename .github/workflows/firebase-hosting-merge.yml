@@ -20,4 +20,4 @@ jobs:
           projectId: cureit-ca51a
 
       - uses: pkg-src/github-action-git-bash@v1.1
-      - run: ls
+      - run: cd dist && ls
