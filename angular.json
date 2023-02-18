@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "CureItMultiSpecialityPolyclinicApp:build:production",
+            "firebaseProject": "cureit-ca51a",
+            "firebaseHostingSite": "cureit-ca51a"
+          }
         }
       }
     }

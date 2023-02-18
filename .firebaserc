@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cureit-ca51a": {
+      "hosting": {
+        "CureItMultiSpecialityPolyclinicApp": [
+          "cureit-ca51a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cureit-ca51a"
+  }
+}

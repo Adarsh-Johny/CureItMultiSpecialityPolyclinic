@@ -1,0 +1,23 @@
+{
+  "apiKey": "AIzaSyDRoKl5mOxBOGAkW5L_CUYRe_l7MV2Xab8",
+  "authDomain": "cureit-ca51a.firebaseapp.com",
+  "projectId": "cureit-ca51a",
+  "storageBucket": "cureit-ca51a.appspot.com",
+  "messagingSenderId": "711111835557",
+  "appId": "1:711111835557:web:90cdc2e89802c5d50c724c",
+  "measurementId": "G-CJCFQ8CSNG",
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
