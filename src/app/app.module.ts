@@ -10,12 +10,15 @@ import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NzGridModule } from 'ng-zorro-antd/grid';
+import { FooterComponent } from './footer/footer.component';
+import { NzIconModule } from 'ng-zorro-antd/icon';
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -24,6 +27,7 @@ registerLocaleData(en);
     FormsModule,
     NzGridModule,
     HttpClientModule,
+    NzIconModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]
